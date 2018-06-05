@@ -21,7 +21,7 @@ DEFAULT_SESSION_NAME=< Session name, Some String Value>
 Example:
 
 ```
-docker run -e AWSCOMMAND='ecs list-task-definitions --region us-east-1'  DEFAULT_ROLE='arn:aws:iam::287840753424:role/Prepare-ciClientRole-1WD0MYXTVQM53' sunilpp/aws-cli-assumerole
+docker run -e AWSCOMMAND='ecs list-task-definitions --region us-east-1'  DEFAULT_ROLE='arn:aws:iam::77777777777777:role/Prepare-ciClientRole-1WD0ABCDEFGM53' sunilpp/aws-cli-assumerole
 ```
 
 ## Maintenance 
