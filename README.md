@@ -1,8 +1,6 @@
 # AWS CLI in Docker
 
-Containerized AWS CLI on alpine to avoid requiring the aws cli to be installed on CI machines.
-
-
+Containerized AWS CLI on alpine to avoid requiring the AWS CLI to be installed on CI machines.
 
 Automated build on Docker Hub
 
@@ -11,14 +9,14 @@ Automated build on Docker Hub
 ## Usage
 
 Configure:
-Three parameters which can be passed as ENV varibales to docker run command .
+ Parameters which needs to be passed as ENV variables to docker run command.
 
 ```
 
-AWSCOMMAND < Mandatory:  the required aws CLI command to run after assuming the role ex: >
-DEFAULT_REGION < default region defaut is us-east-1>
-DEFAULT_ROLE < Mandatory ENV field, IAM role  ARN >
-DEFAULT_SESSION_NAME=<Mandatory:  String session name>
+AWSCOMMAND <AWS CLI command to run after assuming the role ex: >
+DEFAULT_REGION < AWS region,defaut is us-east-1>
+DEFAULT_ROLE < IAM role  ARN >
+DEFAULT_SESSION_NAME=< Session name, Some String Value>
 ```
 
 ex:
