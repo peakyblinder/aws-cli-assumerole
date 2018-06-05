@@ -2,11 +2,7 @@
 
 Containerized AWS CLI on alpine to avoid requiring the aws cli to be installed on CI machines.
 
-## Build
 
-```
-docker build -t aws-cli/adp-aws-cli-assumerole .
-```
 
 Automated build on Docker Hub
 
