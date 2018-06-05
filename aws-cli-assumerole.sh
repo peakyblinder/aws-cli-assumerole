@@ -7,7 +7,7 @@
 # Makes assuming an AWS IAM role (+ exporting new temp keys) easier
 
 DEFAULT_REGION="${DEFAULT_REGION:-eu-east-1}"
-DEFAULT_ROLE="${DEFAULT_ROLE:-arn:aws:iam::123456789012:role/Prepare-JenkinsClientRole-1HE5LLOXWQM33}"
+DEFAULT_ROLE="${DEFAULT_ROLE:-arn:aws:iam::123456789012:role/Prepare-CIClientRole-1HE5LLOXWQM33}"
 DEFAULT_SESSION_NAME="${DEFAULT_SESSION_NAME:-CISessionName}"
 unset  AWS_SESSION_TOKEN
 export AWS_REGION=$DEFAULT_ROLE
